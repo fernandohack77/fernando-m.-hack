@@ -1,0 +1,130 @@
+<cheat desc="Fire Outfit Colors">
+    <parameter>
+       <item value="0x01">Yellow</item>
+       <item value="0x02">Green</item>
+       <item value="0x03">Pink</item>
+       <item value="0x04">Gold</item>
+       <item value="0x05">Gray</item>
+       <item value="0x06">Red</item>
+       <item value="0x07">Blue</item>
+       <item value="0x08">Purple</item>
+       <item value="0x09">White</item>
+       <item value="0x10">Dark Blue</item>
+       <item value="0x11">Brown</item>
+       <item value="0x12">New Yellow</item>
+       <item value="0x13">New Blue</item>
+       <item value="0x14">Blue Fire</item>
+       <item value="0x15">Red Fire</item>
+       <item value="0x16">Blue Alternate</item>
+       <item value="0x17">Green Alternate</item>
+       <item value="0x18">Ken Original</item>
+       <item value="0x19">Ken Alternate</item>
+       <item value="0x20">Ken Jab</item>
+       <item value="0x21">Ken Fierce</item>
+       <item value="0x22">Ken Short</item>
+       <item value="0x23">Ken Forward</item>
+       <item value="0x24">Ken Roundhouse</item>
+       <item value="0x25">Ken Start</item>
+       <item value="0x26">Ken Hold</item>
+       <item value="0x27">Ken Old</item>
+       <item value="0x28">Ryu Original</item>
+       <item value="0x29">Ryu Alternate</item>
+       <item value="0x30">Ryu Jab</item>
+       <item value="0x31">Ryu Fierce</item>
+       <item value="0x32">Ryu Short</item>
+       <item value="0x33">Ryu Forward</item>
+       <item value="0x34">Ryu Roundhouse</item>
+       <item value="0x35">Ryu Start</item>
+       <item value="0x36">Ryu Hold</item>
+       <item value="0x37">Ryu Old</item>
+       <item value="0x38">Ryu Green</item>
+       <item value="0x39">Ken Orange</item>
+       <item value="0x40">Ryu Yellow</item>
+       <item value="0x41">Fuchsia</item>
+       <item value="0x42">Blanka HF</item>     
+       <item value="0x43">Dhalsim WW</item>
+       <item value="0x44">Vega WW</item>
+       <item value="0x45">Sagat LP</item>
+       <item value="0x46">Sagat LK</item>
+       <item value="0x47">Sagat MK</item>
+       <item value="0x48">Sagat HK</item>
+       <item value="0x49">Sagat Start</item>
+       <item value="0x50">Sagat Start 2</item>
+       <item value="0x51">Sagat Hold</item>
+       <item value="0x52">Sagat Old</item>
+       <item value="0x53">M. Bison WW</item>
+       <item value="0x54">M. Bison CE</item>
+       <item value="0x55">M. Bison HF</item>
+       <item value="0x56">M. Bison LP</item>
+       <item value="0x57">M. Bison LK</item>
+       <item value="0x58">M. Bison MK</item>
+       <item value="0x59">M. Bison HK</item>
+       <item value="0x60">M. Bison Start</item>
+       <item value="0x61">M. Bison Hold</item>
+       <item value="0x62">M. Bison Old</item>
+     </parameter>
+    <script state="run">
+      <action condition="param==1">maincpu.mq@0A444A=0FFC0FF90FF60FB0, maincpu.mq@0A4452=0F800E500FFF0CFF</action>
+      <action condition="param==2">maincpu.mq@0A444A=F6F0F0D0F0B0F090, maincpu.mq@0A4452=F070F0500FFF0CFF</action>
+      <action condition="param==3">maincpu.mq@0A444A=FFDFFFBFFF9FFF7F, maincpu.mq@0A4452=FE5EFD4D0FFF0CFF</action>
+      <action condition="param==4">maincpu.mq@0A444A=FFC0FDA0FB80FA70, maincpu.mq@0A4452=F960F7400FFF0CFF</action>
+      <action condition="param==5">maincpu.mq@0A444A=FDDDFCCCF999F777, maincpu.mq@0A4452=F444F2220FFF0CFF</action>
+      <action condition="param==6">maincpu.mq@0A444A=FF90FF50FD40FA30, maincpu.mq@0A4452=F820F6100FFF0CFF</action>
+      <action condition="param==7">maincpu.mq@0A444A=F6EFF5CFF5AEF57D, maincpu.mq@0A4452=F266F2440FFF0CFF</action>
+      <action condition="param==8">maincpu.mq@0A444A=FC4CFA3AF828F727, maincpu.mq@0A4452=F626F5150FFF0CFF</action>
+      <action condition="param==9">maincpu.mq@0A444A=FFFFFEEEFEDDFCCC, maincpu.mq@0A4452=FBBBFAAA0FFF0CFF</action>
+      <action condition="param==10">maincpu.mq@0A444A=0CFF09EF07CF05AE, maincpu.mq@0A4452=008D005A0FFF0CFF</action>
+      <action condition="param==11">maincpu.mq@0A444A=0EA70D860B750854, maincpu.mq@0A4452=053204470FFF0CFF</action>
+      <action condition="param==12">maincpu.mq@0A444A=0CFF0FF90FF60FB0, maincpu.mq@0A4452=0F800E500FFF0CFF</action>
+      <action condition="param==13">maincpu.mq@0A444A=C9FF89CD988D498D, maincpu.mq@0A4452=494D094D0FFF0CFF</action>
+      <action condition="param==14">maincpu.mq@0A444A=0AEF08CF06AF048F, maincpu.mq@0A4452=026F004F002D001B</action>
+      <action condition="param==15">maincpu.mq@0A444A=0FF60FE30FC20E90, maincpu.mq@0A4452=0D600C400A200900</action>
+      <action condition="param==16">maincpu.mq@0A444A=086F083C071C060B, maincpu.mq@0A4452=050804060FFF0CFF</action>
+      <action condition="param==17">maincpu.mq@0A444A=0FE60AF609D407B2, maincpu.mq@0A4452=059003700FFF0CFF</action>
+      <action condition="param==18">maincpu.mq@0A444A=0F600F400F000C00, maincpu.mq@0A4452=090006000FFF0CFF</action>
+      <action condition="param==19">maincpu.mq@0A444A=0668055704460335, maincpu.mq@0A4452=022401120FFF0CFF</action>
+      <action condition="param==20">maincpu.mq@0A444A=0FFF0DEE0BCC09AA, maincpu.mq@0A4452=089907880FFF0CFF</action>
+      <action condition="param==21">maincpu.mq@0A444A=086F083F071C060B, maincpu.mq@0A4452=050804060FFF0CFF</action>
+      <action condition="param==22">maincpu.mq@0A444A=0AF609D407B20590, maincpu.mq@0A4452=037001500FFF0CFF</action>
+      <action condition="param==23">maincpu.mq@0A444A=03DD03BB02990277, maincpu.mq@0A4452=015501330FFF0CFF</action>
+      <action condition="param==24">maincpu.mq@0A444A=0FFA0DD80BB60994, maincpu.mq@0A4452=077206400FFF0CFF</action>
+      <action condition="param==25">maincpu.mq@0A444A=0FF60FE30FC20E90, maincpu.mq@0A4452=0C700A500FFF0CFF</action>
+      <action condition="param==26">maincpu.mq@0A444A=0EB60B8309600640, maincpu.mq@0A4452=042002000FFF0CFF</action>
+      <action condition="param==27">maincpu.mq@0A444A=0F570F250E000C02, maincpu.mq@0A4452=090106000FFF0CFF</action>
+      <action condition="param==28">maincpu.mq@0A444A=0FFF0EEC0DCA0BA8, maincpu.mq@0A4452=0A8707650FFF0CFF</action>
+      <action condition="param==29">maincpu.mq@0A444A=0ABB089906770455, maincpu.mq@0A4452=023301220FFF0CFF</action>
+      <action condition="param==30">maincpu.mq@0A444A=0556044503340223, maincpu.mq@0A4452=011200010FFF0CFF</action>
+      <action condition="param==31">maincpu.mq@0A444A=0DFF0BEE09CE07AD, maincpu.mq@0A4452=058B00680FFF0CFF</action>
+      <action condition="param==32">maincpu.mq@0A444A=0FC60FA40F820E60, maincpu.mq@0A4452=0B3009200FFF0CFF</action>
+      <action condition="param==33">maincpu.mq@0A444A=0ACF07AE058D005B, maincpu.mq@0A4452=000900060FFF0CFF</action>
+      <action condition="param==34">maincpu.mq@0A444A=0DE50BC409A30782, maincpu.mq@0A4452=056100400FFF0CFF</action>
+      <action condition="param==35">maincpu.mq@0A444A=0D860C740A530832, maincpu.mq@0A4452=072105100FFF0CFF</action>
+      <action condition="param==36">maincpu.mq@0A444A=08B9069604740252, maincpu.mq@0A4452=023200100FFF0CFF</action>
+      <action condition="param==37">maincpu.mq@0A444A=0FFF0FEC0ED90CB7, maincpu.mq@0A4452=0A9508730FFF0CFF</action>
+      <action condition="param==38">maincpu.mq@0A444A=0DE50BC409A30782, maincpu.mq@0A4452=056100400FFF0CFF</action>
+      <action condition="param==39">maincpu.mq@0A444A=0FC60FA40F820E60, maincpu.mq@0A4452=0B3009200FFF0CFF</action>
+      <action condition="param==40">maincpu.mq@0A444A=0FE60FD30FB20E80, maincpu.mq@0A4452=0C5007300FFF0CFF</action>
+      <action condition="param==41">maincpu.mq@0A444A=0FCE0E9C0B690846, maincpu.mq@0A4452=084606000FFF0CFF</action>
+      <action condition="param==42">maincpu.mq@0A444A=0ACE08AD077C066B, maincpu.mq@0A4452=054905490FFF0CFF</action>
+      <action condition="param==43">maincpu.mq@0A444A=0EB90C970A750853, maincpu.mq@0A4452=063106310FFF0CFF</action>
+      <action condition="param==44">maincpu.mq@0A444A=0B9F097E075B0429, maincpu.mq@0A4452=042904290FFF0CFF</action>
+      <action condition="param==45">maincpu.mq@0A444A=00E009D405A10370, maincpu.mq@0A4452=015001500FFF0CFF</action>
+      <action condition="param==46">maincpu.mq@0A444A=096A074705060304, maincpu.mq@0A4452=030403040FFF0CFF</action>
+      <action condition="param==47">maincpu.mq@0A444A=08A6068404620440, maincpu.mq@0A4452=044004400FFF0CFF</action>
+      <action condition="param==48">maincpu.mq@0A444A=09AC078A05680346, maincpu.mq@0A4452=034603460FFF0CFF</action>
+      <action condition="param==49">maincpu.mq@0A444A=0777066605550444, maincpu.mq@0A4452=033303330FFF0CFF</action>
+      <action condition="param==50">maincpu.mq@0A444A=0EB90C860A640843, maincpu.mq@0A4452=063006300FFF0CFF</action>
+      <action condition="param==51">maincpu.mq@0A444A=0EE50CB30B820A60, maincpu.mq@0A4452=0A600A600FFF0CFF</action>
+      <action condition="param==52">maincpu.mq@0A444A=017F005A00370015, maincpu.mq@0A4452=001500150FFF0CFF</action>
+      <action condition="param==53">maincpu.mq@0A444A=0F870E650C320900, maincpu.mq@0A4452=060006000FFF0CFF</action>
+      <action condition="param==54">maincpu.mq@0A444A=0BFE08EB05C70395, maincpu.mq@0A4452=007300730FFF0CFF</action>
+      <action condition="param==55">maincpu.mq@0A444A=0FFF0DDD0BBB0888, maincpu.mq@0A4452=055505550FFF0CFF</action>
+      <action condition="param==56">maincpu.mq@0A444A=008E036D004C022A, maincpu.mq@0A4452=000800080FFF0CFF</action>
+      <action condition="param==57">maincpu.mq@0A444A=06DE05BC03890268, maincpu.mq@0A4452=004600460FFF0CFF</action>
+      <action condition="param==58">maincpu.mq@0A444A=0EDB0CA809850763, maincpu.mq@0A4452=054205420FFF0CFF</action>
+      <action condition="param==59">maincpu.mq@0A444A=0FBF0E8E0C6C0949, maincpu.mq@0A4452=060606060FFF0CFF</action>
+      <action condition="param==60">maincpu.mq@0A444A=099A077806670556, maincpu.mq@0A4452=044404440FFF0CFF</action>
+      <action condition="param==61">maincpu.mq@0A444A=0FD90EA70C850964, maincpu.mq@0A4452=064006400FFF0CFF</action>
+      <action condition="param==62">maincpu.mq@0A444A=0F870E650C320900, maincpu.mq@0A4452=060006000FFF0CFF</action>
+    </script>
+  </cheat>	 
